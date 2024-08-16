@@ -53,7 +53,7 @@ class LocaleText with ChangeNotifier {
         'Fr': 'Pour augmenter le moment d\'inertie,\n'
             'il faut éloigner les segments (bras et jambe libre) '
             'de l\'axe de rotation'
-            '\nExemples de Valeurs:'
+            '\nExemples de valeurs:'
             '\n$_tab\u{2799}Vrille: 0.9 (pirouette), 1.1 (position anatomique), 2.9 (pose en T), 5.4 kgm\u{00B2}(décollage en Axel)'
             '\n$_tab\u{2799}Salto: 4 (groupé), 6 (carpé), 12 (tendu), 15 kgm\u{00B2} (avec bras en haut).',
       }[language]!;
@@ -198,7 +198,7 @@ class LocaleText with ChangeNotifier {
             'ou les mettre tendus au-dessus de la tête \n\n'
             'Pour réduire le moment d\'inertie en phase aérienne en salto: \n'
             '$_tab\u{2799} Position groupée compacte, \n'
-            '\nExemples de Valeurs:'
+            '\nExemples de valeurs:'
             '\n$_tab\u{2799}Vrille: 0.9 (pirouette), 1.1 (position anatomique), 2.9 (pose en T), 5.4 kgm\u{00B2}(décollage en Axel)'
             '\n$_tab\u{2799}Salto: 4 (groupé), 6 (carpé), 12 (tendu), 15 kgm\u{00B2} (avec bras en haut).',
       }[language]!;
@@ -242,7 +242,7 @@ class LocaleText with ChangeNotifier {
         //'$_tab$_tab and time to reach this position',
         'Fr': 'Pour augmenter la vitesse maximale de rotation du saut, vous pouvez :\n'
             '$_tab\u{2799} Augmenter le moment cinétique initial : I\u{2080} x \u{03C9}\u{2080}\n'
-            '$_tab\u{2799} Réduire le moment d\'inertie mininal en phase aérienne et \n',
+            '$_tab\u{2799} Réduire le moment d\'inertie mininal en phase aérienne \n',
       }[language]!;
 
   String get computedAerialPhaseTooltip => {
@@ -312,7 +312,7 @@ class LocaleText with ChangeNotifier {
             'but may be penalized by judges',
         'Fr':
             'Une rotation exagérée peut aider à compléter la rotation du saut\n'
-                'mais risque d\'être péalisée par les juges',
+                'mais risque d\'être pénalisée par les juges',
       }[language]!;
 
   String get hfTooltip => {
@@ -378,7 +378,7 @@ class LocaleText with ChangeNotifier {
             '(Synergic project 2022-2023)',
         'Fr': 'Choisir un saut dans le menu à gauche; '
             'Changer les valeurs avec les curseurs et observer les performances :\n'
-            '$_tab\u{2022} vitesse vertical de décollage, hauteur maximale, temps de vol,\n'
+            '$_tab\u{2022} vitesse verticale de décollage, hauteur maximale, temps de vol,\n'
             '$_tab\u{2022} vitesse maximale de rotation et rotation totale.\n\n'
             'Utiliser l\'interrupteur pour passer des paramètres en translation à ceux en rotation.\n'
             'Utiliser le button + ou - pour avoir accès à plus ou moins de paramètres.\n'
