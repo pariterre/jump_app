@@ -47,7 +47,7 @@ class LocaleText with ChangeNotifier {
         'En': 'To increase the moment of inertia at takeoff, \n'
             'the body segments (arms and free leg) must be moved away '
             'from the axis of rotation'
-            '\nExamples of Values:'
+            '\nExamples of values:'
             '\n$_tab\u{2799}Twist: 0.9 (backspin), 1.1 (anatomical posture), 2.9 (T pose), 5.4 kgm\u{00B2}(Axel take-off)'
             '\n$_tab\u{2799}Somersault: 4 (tuck), 6 (pike), 12 (layout), 15 kgm\u{00B2} (arms overhead).',
         'Fr': 'Pour augmenter le moment d\'inertie,\n'
@@ -64,7 +64,7 @@ class LocaleText with ChangeNotifier {
       }[language]!;
   String get angularVelocityHelpTitle => {
         'En': 'Increase angular velocity at takeoff',
-        'Fr': 'Augmenter le vitesse de rotation au décollage',
+        'Fr': 'Augmenter la vitesse de rotation au décollage',
       }[language]!;
   String get angularVelocityHelp => {
         'En': 'To increase the angular velocity at takeoff:\n'
@@ -148,7 +148,7 @@ class LocaleText with ChangeNotifier {
         'En': 'To improve the total rotation of the jump, you need to:\n'
             '$_tab\u{2799} Increase the flight time\n'
             '$_tab\u{2799} Increase the angular momentum at takeoff (I\u{2080} x \u{03C9}\u{2080})\n'
-            '$_tab\u{2799} Decrease the mimimum moment of inertia\n'
+            '$_tab\u{2799} Decrease the minimum moment of inertia\n'
             '$_tab\u{2799} Decrease the time to reach this position',
         'Fr': 'Pour augmenter la rotation totale du saut, vous devez :\n'
             '$_tab\u{2799} Allonger la durée de la phase aérienne\n'
@@ -162,7 +162,7 @@ class LocaleText with ChangeNotifier {
         'Fr': 'Durée de la phase de propulsion',
       }[language]!;
   String get pushoffPhaseLengthHelpTitle => {
-        'En': 'Increase aerial phase duration',
+        'En': 'Increase pushoff phase duration',
         'Fr': 'Allonger la phase de propulsion',
       }[language]!;
   String get pushoffPhaseLengthHelp => {
@@ -189,7 +189,7 @@ class LocaleText with ChangeNotifier {
             '$_tab\u{2799} Put the arms on your chest or extended overhead \n\n'
             'To reduce the moment of inertia in aerial phase in somersault: \n'
             '$_tab\u{2799} Compact tuck position \n'
-            '\nExamples of Values:'
+            '\nExamples of values:'
             '\n$_tab\u{2799}Twist: 0.9 (backspin), 1.1 (anatomical posture), 2.9 (T pose), 5.4 kgm\u{00B2}(Axel take-off)'
             '\n$_tab\u{2799}Somersault: 4 (tuck), 6 (pike), 12 (layout), 15 kgm\u{00B2} (arms overhead).',
         'Fr': 'Pour réduire le moment d\'inertie en phase aérienne en vrille: \n'
